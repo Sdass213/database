@@ -1,6 +1,6 @@
 const express = require ("express"); //richiesta express 
 const app = express (); //creato applicazione
-const path = require ("path") //richiesta modulo path per pagine 
+const path = require ("path") //richiesta modulo path per pagine per lavorare su file su piattaforme multiple
 app.listen (9000); 
 
 app.get ("/",function (req,res){
